@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "185160641173",
+    "firebase_url": "https://travelaloneblog-6775b.firebaseio.com",
+    "project_id": "travelaloneblog-6775b",
+    "storage_bucket": "travelaloneblog-6775b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185160641173:android:a3d4f9abfdde6efa",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.travelalone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185160641173-phpqfnlsc49vgl1bl34k7lnb7dakqgp6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.travelalone",
+            "certificate_hash": "1ab9fc894dfd6daf32398c772feed2117656720e"
+          }
+        },
+        {
+          "client_id": "185160641173-rreh1j5f6cif3ghjlv2os15s8g7t0v51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.travelalone",
+            "certificate_hash": "23e9bf0d8faa6163881301a58bd9b9fc73c210f1"
+          }
+        },
+        {
+          "client_id": "185160641173-p1nt3vubotvtkj1991hqbmlp9fj03odd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQPDk4blJlzxBJJtL8lAr3Nck_Hsw9hQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185160641173-p1nt3vubotvtkj1991hqbmlp9fj03odd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

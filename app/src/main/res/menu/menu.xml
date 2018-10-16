@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item android:id="@+id/nav_home"
+            android:state_checked="true"
+            android:color="#ebebeb"
+            android:title="Home"/>
+        <item android:id="@+id/nav_android"
+            android:color="#ebebeb"
+            android:state_checked="true"
+            android:title="Chat"/>
+        <item android:id="@+id/nav_news"
+            android:state_checked="true"
+            android:color="#ebebeb"
+            android:title="News"/>
+
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item android:title="Share"
+
+            android:state_checked="true"
+            android:id="@+id/nav_settings"/>
+        <item android:id="@+id/nav_about"
+            android:state_checked="true"
+            android:title="About Us"/>
+        <item android:id="@+id/nav_mail"
+            android:state_checked="true"
+            android:title="Requst news"/>
+
+    </group>
+
+
+</menu>

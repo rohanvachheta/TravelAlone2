@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfd0d0"
+
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:scaleType="matrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/asdf"
+        android:id="@+id/main_image"
+        />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_image"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-31dp"
+        android:layout_marginEnd="34dp"
+        android:text="Blog App With Multiple Features"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="#000000" />
+
+
+</RelativeLayout>

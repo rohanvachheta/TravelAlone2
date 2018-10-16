@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/main_toolbar123"
+        android:theme="@style/toolbar"
+        android:layout_height="wrap_content" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        app:civ_border_overlay="true"
+        app:civ_border_color="@color/colorAccent"
+        android:id="@+id/firstcircle"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/main_toolbar123"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/rohan"
+        android:transitionName="MyImage" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        app:civ_border_overlay="true"
+        app:civ_border_color="@color/colorAccent"
+        android:id="@+id/secoundcircle"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/firstcircle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:transitionName="MyImage1"
+        android:src="@mipmap/dhruv" />
+</RelativeLayout>
